@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font: bold;
+}
+tbody TR:nth-child(even){       
+    background-color: lightgray;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+}
+td{
+    text-align: right;
+}
+tbody th{
+    text-align: left;
+}
