@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MED{
+    background-color: gray;
+    color: darkgrey;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+thead{
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+td, th{
+    border: 1px solid black;
+    text-align: center;
+
+}
