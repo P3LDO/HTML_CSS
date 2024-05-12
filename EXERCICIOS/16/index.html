@@ -9,13 +9,39 @@
     body{
         background-color: aqua;
     }
+    div{
+        padding: 10px;
+        width: 100px;
+    }
+    fieldset{
+        border-radius: 15px;
+        border-color: black;
+        border-width: 5px;
+        border-style: inset;
+    }
 </style>
 <body>
     <h1>Formulario</h1>
     <form action="index.html">
-        <p> <label for="ALGC1">Algo pra colocar</label><input type="text" id="ALGC1"></p>
-        
-        <p><label for="ALGC2">Alfo pra colocar 2</label><input type="text" id="ALGC2"></p>
+        <fieldset>
+            <div>
+                <label for="ALGC1">Algo pra colocar:</label>
+                <input type="text" id="ALGC1">
+            </div>
+            
+            <div>
+                <label for="ALGC2">Alfo pra colocar 2:</label>
+                <input type="text" id="ALGC2">
+            </div>
+
+            <div>
+                <label for="IEMAIL">email:</label>
+                <input type="email" id="IEMAIL">
+            </div>
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </fildset>
     </form>
 </body>
 </html>
